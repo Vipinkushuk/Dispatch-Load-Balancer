@@ -6,12 +6,18 @@ The application prioritizes HIGH-priority orders and uses the Haversine formula 
 
 ## Live Demo
 
-- **API Base URL:** https://YOUR-APP.onrender.com
-- **Swagger UI:** https://YOUR-APP.onrender.com/swagger-ui/index.html
+- **Live Application:** https://dispatch-load-balancer-e7d5.onrender.com/
+- **Swagger UI (API Documentation):** https://dispatch-load-balancer-e7d5.onrender.com/swagger-ui/index.html#/dispatch-controller/getPlan
 
 > **Note:** The free hosting service may put the application to sleep when idle. The first request after inactivity may take approximately 50 seconds.
 >
 > The application currently uses an in-memory H2 database. Data is not permanent and may be lost when the application restarts. Add orders and vehicles before generating a dispatch plan.
+
+## Project Links
+
+- **GitHub Repository:** https://github.com/Vipinkushuk/Dispatch-Load-Balancer
+- **LinkedIn:** https://www.linkedin.com/in/vipin-kumar-5217a1218/
+- **Live API:** https://dispatch-load-balancer-e7d5.onrender.com/
 
 ## Tech Stack
 
@@ -40,8 +46,8 @@ The application prioritizes HIGH-priority orders and uses the Haversine formula 
 **1. Clone the repository**
 
 ```bash
-git clone YOUR-GITHUB-REPOSITORY-URL
-cd dispatch
+git clone https://github.com/Vipinkushuk/Dispatch-Load-Balancer.git
+cd Dispatch-Load-Balancer
 ```
 
 **2. Start the application**
@@ -91,7 +97,7 @@ The application provides the following REST endpoints:
 
 Use Swagger UI to explore the endpoints, provide JSON requests, and view responses.
 
-**Swagger URL:** `/swagger-ui/index.html`
+**Swagger URL:** https://dispatch-load-balancer-e7d5.onrender.com/swagger-ui/index.html#/dispatch-controller/getPlan
 
 ## Dispatch Algorithm
 
@@ -165,3 +171,7 @@ http://localhost:8080/swagger-ui/index.html
 
 **Project:** Dispatch Load Balancer  
 **Purpose:** Intelligent delivery order assignment and vehicle dispatch optimization.
+
+**Developer:** [Vipin Kumar](https://www.linkedin.com/in/vipin-kumar-5217a1218/)
+
+**GitHub:** https://github.com/Vipinkushuk/Dispatch-Load-Balancer
